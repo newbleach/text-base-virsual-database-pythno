@@ -5,9 +5,9 @@ import art
 class dbGrade():
     ''' This program is a basic virsual database system that provide some basic method in database such as create,
     update, edit and also can display and calculale GPA from data that read from CSV file, All of the python module
-    that i use in this programe is all basic method that you can find and download, Hope you enjoy. '''
+    that i use in this program is all basic method that you can find and download, Hope you enjoy. '''
 
-    # This function use for read file CSV and clean data into pandas dataframe.
+    # This function use for read file CSV and clean data into pandas data frame.
     def readCSV(self):
         self.dataCSV = pd.read_csv("Grade Report - Grade Report (1) - Grade Report - Grade Report (1).csv", index_col= False)
         # self.data.loc[:, ~self.data.columns.str.contains('^Unnamed')]
